@@ -23,3 +23,115 @@ img {
 body {
   font-size: 1.6rem;
 }
+
+.container {
+  margin: 0 3.2rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+.navbar a{
+  font-size: 1.6m;
+  text-decoration: none;
+  color: #1a1a1a;
+  font-weight: bold;
+}
+
+.navbar-links{
+  display: flex;
+}
+
+.navbar-links li{
+  list-style: none;
+}
+
+.navbar div ul li a{
+  text-decoration: none;
+  color: #555555;
+  margin: 0 2.8rem;
+}
+
+.texto-rojo {
+  color: #c0392b;
+}
+
+.texto-blanco{
+  color: white;
+}
+
+.texto-gris{
+  color: #888888;
+}
+
+.texto-negro{
+  color: #1a1a1a;
+}
+
+.no-margen{
+  margin: 0;
+}
+
+.hero {
+  background-color: #1a1a1a;
+  padding: 6.4rem 0;
+}
+
+.header-texto{
+  display: flex;
+  flex-direction: column;
+}
+
+.btn{
+  text-decoration: none;
+  padding: 1.6rem 2.4rem;
+  border-radius: 0.6rem;
+  color: #ffffff;
+  background-color: #c0392b;
+}
+
+/** nuestro menu **/
+
+.menu{
+  background-color: #ffffff;
+  border-top: solid black;
+}
+
+.menu-contenido{
+  display: flex;
+}
+
+.menu-tarjeta{
+  border: solid #e0ddd5;
+  border-radius: 1rem;
+  flex-basis: 33%;
+  padding: 1rem;
+}
+
+.img-menu{
+  height: 20rem;
+}
+
+/** footer **/
+
+.footer{
+  background-color: #1a1a1a;
+}
+
+.footer-contenido{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-end{
+  text-align: center;
+  padding: 4rem;
+} 
+
+.lista{
+  list-style: none;
+  margin: 0;
+}
