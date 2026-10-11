@@ -34,22 +34,22 @@ body {
   padding: 2rem 0;
 }
 
-.navbar a{
+.navbar a {
   font-size: 1.6m;
   text-decoration: none;
   color: #1a1a1a;
   font-weight: bold;
 }
 
-.navbar-links{
+.navbar-links {
   display: flex;
 }
 
-.navbar-links li{
+.navbar-links li {
   list-style: none;
 }
 
-.navbar div ul li a{
+.navbar div ul li a {
   text-decoration: none;
   color: #555555;
   margin: 0 2.8rem;
@@ -59,19 +59,23 @@ body {
   color: #c0392b;
 }
 
-.texto-blanco{
+.texto-blanco {
   color: white;
 }
 
-.texto-gris{
+.texto-gris {
   color: #888888;
 }
 
-.texto-negro{
+.texto-negro {
   color: #1a1a1a;
 }
 
-.no-margen{
+.bold{
+  font-weight: bold;
+}
+
+.no-margen {
   margin: 0;
 }
 
@@ -80,12 +84,12 @@ body {
   padding: 6.4rem 0;
 }
 
-.header-texto{
+.header-texto {
   display: flex;
   flex-direction: column;
 }
 
-.btn{
+.btn {
   text-decoration: none;
   padding: 1.6rem 2.4rem;
   border-radius: 0.6rem;
@@ -95,43 +99,222 @@ body {
 
 /** nuestro menu **/
 
-.menu{
+.menu {
   background-color: #ffffff;
   border-top: solid black;
 }
 
-.menu-contenido{
+.menu-contenido {
   display: flex;
 }
 
-.menu-tarjeta{
+.menu-tarjeta {
   border: solid #e0ddd5;
   border-radius: 1rem;
   flex-basis: 33%;
   padding: 1rem;
 }
 
-.img-menu{
+.img-menu {
   height: 20rem;
 }
 
 /** footer **/
 
-.footer{
+.footer {
   background-color: #1a1a1a;
 }
 
-.footer-contenido{
+.footer-contenido {
   display: flex;
   justify-content: space-between;
 }
 
-.footer-end{
+.footer-end {
   text-align: center;
   padding: 4rem;
-} 
+}
 
-.lista{
+.lista {
   list-style: none;
   margin: 0;
+}
+
+/** los mas pedidos **/
+
+.mas-pedidos {
+  background-color: #f2f0eb;
+  padding: 4.8rem;
+}
+
+.mas-pedidos-contenido {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.mas-pedidos-left {
+  flex-basis: 30%;
+}
+
+.mas-pedidos-right {
+  flex-basis: 65%;
+}
+
+
+.mas-pedidos-right ul {
+  padding: 0;
+  margin: 0;
+}
+
+.img-pedidos {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 0.8rem;
+  object-fit: cover;
+  margin-right: 2rem;
+}
+
+.pedidos-item {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 2rem 0;
+  border-bottom: 0.1rem solid #e0ddd5;
+}
+
+.fondo {
+  margin-left: auto; 
+}
+
+/** nosotros **/
+
+
+.sobre-nosotros{
+  background-color: #ffffff;
+  padding: 4.8rem 0;
+}
+
+
+.nosotros{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.nosotros-left{
+  flex-basis: 45%;
+}
+
+
+.nosotros-right{
+  flex-basis: 45%;
+}
+
+
+.nosotros-left p{
+  color: #555555;
+  font-size: 1.6rem;
+}
+
+
+.nosotros-right{
+  display: flex;
+  border: 1px solid #e0ddd5;
+  border-radius: 1rem;
+}
+
+
+.estadistica{
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 2.4rem 1.6rem;
+}
+
+
+.numero{
+  color: #1a1a1a;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+
+.desc{
+  color: #555555;
+  font-size: 1.3rem;
+}
+
+/** contacto **/
+
+.contacto {
+  background-color: #f2f0eb;
+  padding: 4.8rem 0;
+}
+
+
+.contacto-contenido {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+
+.contacto-info {
+  flex-basis: 40%;
+}
+
+.contacto-info p,
+.contacto-info li {
+  color: #555555;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.contacto-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.contacto-formulario {
+  flex-basis: 50%;
+  background-color: #ffffff;
+  border: 1px solid #e0ddd5;
+  border-radius: 1rem;
+  padding: 2.4rem;
+}
+
+
+.contacto-formulario label {
+  display: block;
+  color: #555555;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+
+.contacto-formulario input,
+.contacto-formulario textarea {
+  width: 100%;
+  border: 1px solid #e0ddd5;
+  border-radius: 0.6rem;
+  padding: 1rem;
+  margin-bottom: 1.6rem;
+  font-family: inherit; 
+  box-sizing: border-box;
+}
+
+
+.contacto-formulario button {
+  width: 100%;
+  background-color: #c0392b;
+  color: #ffffff;
+  padding: 1.2rem;
+  border-radius: 0.6rem;
+  font-size: 1.6rem;
+  font-weight: bold;
 }
