@@ -85,27 +85,45 @@
 
     <section class="mas-pedidos">
       <article class="container no-margen">
-        <h2 class="texto-negro">Los más pedidos</h2>
         <div class="mas-pedidos-contenido">
-          <p class="texto-gris">Los platos que nuestros clientes eligen semana a semana.</p>
+          <div class="mas-pedidos-left">
+            <h2 class="texto-negro">Los más pedidos</h2>
+            <p class="texto-gris">
+              Los platos que nuestros clientes eligen semana a semana.
+            </p>
+          </div>
 
-          <ul>
-            <li class="pedidos-item">
-              <img class="img-pedidos" src="img/sushi1.jpg" alt="Nigiri Salmón" />
-              <span class="texto-gris">Nigiri Salmón</span>
-              <span class="texto-rojo bold fondo">$4.990</span>
-            </li>
-            <li class="pedidos-item">
-              <img class="img-pedidos" src="img/sushi2.jpg" alt="Roll Spicy Tuna" />
-              <span class="texto-gris">Roll Spicy Tuna</span>
-              <span class="texto-rojo bold fondo">$6.490</span>
-            </li>
-            <li class="pedidos-item">
-              <img class="img-pedidos" src="img/sushi3.jpg" alt="Tempura Roll" />
-              <span class="texto-gris">Tempura Roll</span>
-              <span class="texto-rojo bold fondo">$6.990</span>
-            </li>
-          </ul>
+          <div class="mas-pedidos-right">
+            <ul>
+              <li class="pedidos-item">
+                <img
+                  class="img-pedidos"
+                  src="img/sushi1.jpg"
+                  alt="Nigiri Salmón"
+                />
+                <span class="texto-gris">Nigiri Salmón</span>
+                <span class="texto-rojo bold fondo">$4.990</span>
+              </li>
+              <li class="pedidos-item">
+                <img
+                  class="img-pedidos"
+                  src="img/sushi2.jpg"
+                  alt="Roll Spicy Tuna"
+                />
+                <span class="texto-gris">Roll Spicy Tuna</span>
+                <span class="texto-rojo bold fondo">$6.490</span>
+              </li>
+              <li class="pedidos-item">
+                <img
+                  class="img-pedidos"
+                  src="img/sushi3.jpg"
+                  alt="Tempura Roll"
+                />
+                <span class="texto-gris">Tempura Roll</span>
+                <span class="texto-rojo bold fondo">$6.990</span>
+              </li>
+            </ul>
+          </div>
         </div>
       </article>
     </section>
@@ -114,47 +132,75 @@
 
     <!-- ===================== INICIO SOBRE NOSOTROS ===================== -->
 
-    <h2>Sobre nosotros</h2>
-    <p>
-      En <strong>TAWENO SUSHI</strong> creemos que la gastronomía japonesa es un
-      arte. Trabajamos con ingredientes frescos seleccionados cada día para
-      ofrecerte siempre la mejor experiencia.
-    </p>
+    <section class="sobre-nosotros">
+      <div class="container">
+        <h2>Sobre nosotros</h2>
+        <article class="nosotros">
+          <div class="nosotros-left">
+            <p>
+              En <strong>TAWENO SUSHI</strong> creemos que la gastronomía
+              japonesa es un arte. Trabajamos con ingredientes frescos
+              seleccionados cada día para ofrecerte siempre la mejor
+              experiencia.
+            </p>
+          </div>
 
-    <span>8+</span>
-    <small>Años</small>
+          <div class="nosotros-right">
+            <div class="estadistica">
+              <span class="numero">8+</span>
+              <small class="desc">Años</small>
+            </div>
 
-    <span>2</span>
-    <small>Locales</small>
+            <div class="estadistica">
+              <span class="numero">2</span>
+              <small class="desc">Locales</small>
+            </div>
 
-    <span>40+</span>
-    <small>Productos</small>
+            <div class="estadistica">
+              <span class="numero">40+</span>
+              <small class="desc">Productos</small>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
 
     <!-- ===================== FIN SOBRE NOSOTROS ===================== -->
 
     <!-- ===================== INICIO CONTACTO ===================== -->
 
-    <h2>Contáctanos</h2>
-    <p>Reservas o consultas. Respondemos en menos de 24 horas.</p>
-    <ul>
-      <li>Teléfono: +56 9 1234 5678</li>
-      <li>Correo: hola@tawenosushi.cl</li>
-    </ul>
+    <section class="contacto">
+      <article class="container contacto-contenido">
+        <div class="contacto-info">
+          <h2>Contáctanos</h2>
+          <p>Reservas o consultas. Respondemos en menos de 24 horas.</p>
+          <ul>
+            <li>Teléfono: +56 9 1234 5678</li>
+            <li>Correo: hola@tawenosushi.cl</li>
+          </ul>
+        </div>
 
-    <form action="#" method="post">
-      <label for="nombre">Nombre</label>
-      <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" />
+        <form class="contacto-formulario" action="#" method="post">
+          <label for="nombre">Nombre</label>
+          <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            placeholder="Tu nombre"
+          />
 
-      <label for="mensaje">Mensaje</label>
-      <textarea
-        id="mensaje"
-        name="mensaje"
-        rows="4"
-        placeholder="Escribe tu mensaje aquí..."
-      ></textarea>
+          <label for="mensaje">Mensaje</label>
+          <textarea
+            id="mensaje"
+            name="mensaje"
+            rows="4"
+            placeholder="Escribe tu mensaje aquí..."
+          ></textarea>
 
-      <button type="submit">Enviar</button>
-    </form>
+          <button type="submit">Enviar</button>
+        </form>
+      </article>
+    </section>
 
     <!-- ===================== FIN CONTACTO ===================== -->
 
